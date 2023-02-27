@@ -1,8 +1,9 @@
-# Airline-PCA-and-clustering
+## Goal
+Exporatory data analysis on Delta airline data
 
-Goal: Exporatory data analysis on airline data
-
-## Clustering
-Use components in PCA as input for K-Means clustering to segment airline data.
-Based on cumulative sum of explained variance > 90%, choose component = 4. 
-Through SSE elbow curve, select k=5 to get the cluster assignment.
+## How does it work?
+1. plot correlation 
+2. PCA 
+3. Select the component = 4 based on cumulative variance explained ratio (explained more than 90%)
+4. Elbow plot: check the appropriate number of clusters (select k=5)
+5. Visualize the cluster membership by scatter plots
