@@ -1,6 +1,6 @@
 # Airline PCA & Clustering
 ## Goal
-Exporatory data analysis on Delta airline data
+Exploratory data analysis on Delta airline data
 
 ## How does it work?
 1. plot correlation 
